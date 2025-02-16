@@ -12,6 +12,8 @@ import LoadingSpinner from './components/LoadingSpinner.Vue';
   const fin=ref(postXpage)
   const pagina =ref(1)
   const loading = ref(true)
+  const prueba=ref("")
+  
 
   /*
   onMounted(async()=>{
@@ -67,6 +69,8 @@ import LoadingSpinner from './components/LoadingSpinner.Vue';
   const maxFin=computed(()=>{
     return fin.value >= posts.value.length ? true:false
   })
+
+
 
 </script>
 
